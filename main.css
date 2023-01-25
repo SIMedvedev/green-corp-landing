@@ -101,37 +101,24 @@ button {
       margin-top:60px;
     }
 .form label{
-    fomt-size:18px;
+    font-size:18px;
     font-weight:600px;
     margin-bottom:15px;
     margin-top:15px;
 }
-.form input{
+.form input, .form select{
   font-size:18px;
   color:#213053;
   height:60px;
-  padding-top:0px;
-  padding-bottom:0px;
-  padding-left:20px;
-  padding-right:20px;
-  border-radius:15px;
+  padding-top:0 20px;
   border:none;
+  border-radius: 15px;
+  outline:none;
   }
-  .form select{
-    font-size:18px;
-    color:#213053;
-    height:60px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:20px;
-    padding-right:20px;
-    border-radius:15px;
-    border:none;
-   
-    }
+  
 .form__submit{
     font-size:18px;
-    font-weight:600px;
+    font-weight:600;
     margin-top:40px;
 }
 select {
@@ -146,23 +133,23 @@ button:hover{
   transition: background-color 0.3s ease-in;
 }
 footer{
-  padding-top:90px;
-  padding-bottom:90px;
-  padding-left:20px;
-  padding-right:20px;
+  padding-top:90px 20px;
   font-weight:600px;
   margin-top: 40px;
-  text-align: center;
-  opacity: 0.5;
-}
+  }
 .footer__container{
   display:flex;
   justify-content: center;
 }
+.footer__copyright{
+  text-align: center;
+   opacity: 0.5;
+   margin-top: 40px;
+}
 .footer__group{
   margin-right: 80px;
   }
-.footer__group h3{
+.footer h3{
   font-size:16px;
   opacity: 0.7;
   margin-bottom: 30px;
